@@ -32,7 +32,7 @@ const IngredientItem = ({ ingredient, index, onRemove }) => {
       }`}
     >
       <img
-        src={`/src/assets/ingredient-${ingredient.name.toLowerCase().replace(' ', '-')}.jpg`}
+        src={`/ingredient-${ingredient.name.toLowerCase().replace(' ', '-')}.jpg`}
         alt={ingredient.name}
         className="w-12 h-12 object-cover rounded"
         onError={(e) => (e.target.src = 'https://via.placeholder.com/48')}
@@ -90,7 +90,7 @@ const DraggableIngredient = ({ ingredient, index, onMove }) => {
       } ${isOver ? 'border-2 border-green-500' : 'border border-gray-200'}`}
     >
       <img
-        src={`/src/assets/ingredient-${ingredient.name.toLowerCase().replace(' ', '-')}.jpg`}
+        src={`/ingredient-${ingredient.name.toLowerCase().replace(' ', '-')}.jpg`}
         alt={ingredient.name}
         className="w-16 h-16 object-cover rounded"
         onError={(e) => (e.target.src = 'https://via.placeholder.com/64')}
@@ -112,7 +112,7 @@ const BurgerBuilder = ({ selectedIngredients, onRemoveIngredient, onMoveIngredie
             {selectedIngredients.length === 0 ? (
               <div className="flex flex-col items-center justify-center min-h-[200px]">
                 <img
-                  src="/src/assets/ingredient-bun-bottom.jpg"
+                  src="/ingredient-bun-bottom.jpg"
                   alt="Placeholder Bun"
                   className="w-64 h-20 object-contain"
                   onError={(e) => (e.target.src = 'https://via.placeholder.com/64')}

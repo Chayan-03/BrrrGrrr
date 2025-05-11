@@ -32,7 +32,7 @@ const Home = () => {
         transition={{ duration: 0.8 }}
         className="relative bg-cover bg-center h-[600px] flex items-center justify-center"
         style={{
-          backgroundImage: 'url(/src/assets/burger-hero.jpg)',
+          backgroundImage: 'url(/burger-hero.jpg)',
           backgroundBlendMode: 'overlay',
           backgroundColor: 'rgba(0, 0, 0, 0.4)',
         }}

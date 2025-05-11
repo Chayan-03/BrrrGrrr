@@ -78,7 +78,7 @@ const IngredientList = ({ onAddIngredient }) => {
                         onSelect={(e) => e.preventDefault()}
                       >
                         <img
-                          src={`/src/assets/ingredient-${item.name.toLowerCase().replace(' ', '-')}.jpg`}
+                          src={`/ingredient-${item.name.toLowerCase().replace(' ', '-')}.jpg`}
                           alt={item.name}
                           className="w-12 h-12 object-cover rounded"
                           onError={(e) => (e.target.src = 'https://via.placeholder.com/48')}

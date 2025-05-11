@@ -13,19 +13,19 @@ const Menu = () => {
       name: 'Classic Brrrgrrr',
       description: 'Juicy beef patty, cheese, lettuce, tomato, ketchup, mayo, on a sesame bun.',
       price: 8.99,
-      image: '/src/assets/classic-burger.jpg',
+      image: '/classic-burger.jpg',
     },
     {
       name: 'Spicy Inferno',
       description: 'Spicy chicken patty, cheese, lettuce, tomato, spicy mustard, on a pretzel bun.',
       price: 9.49,
-      image: '/src/assets/spicy-burger.jpg',
+      image: '/spicy-burger.jpg',
     },
     {
       name: 'Veggie Delight',
       description: 'Grilled veggie patty, lettuce, tomato, garlic aioli, on a brioche bun.',
       price: 7.99,
-      image: '/src/assets/veggie-burger.jpg',
+      image: '/veggie-burger.jpg',
     },
   ];
 

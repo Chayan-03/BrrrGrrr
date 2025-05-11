@@ -11,7 +11,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <img
-          src="/src/assets/burger-logo.png"
+          src="/burger-logo.png"
           alt="Brrrgrrr Logo"
           className="h-12"
           onError={(e) => (e.target.src = 'https://via.placeholder.com/48')}
