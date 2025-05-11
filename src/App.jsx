@@ -10,7 +10,6 @@ import BurgerBuilder from './components/BurgerBuilder';
 import IngredientList from './components/IngredientList';
 import OrderSummary from './components/OrderSummary';
 import './App.css';
-
 function App() {
   const [selectedIngredients, setSelectedIngredients] = useState([]);
 
