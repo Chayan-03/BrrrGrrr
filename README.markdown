@@ -1,6 +1,6 @@
 # BrrrGrrr - A Burger Customization Web App 🍔
 
-![BrrrGrrr Banner](https://via.placeholder.com/1200x400.png?text=BrrrGrrr+Banner)
+
 
 ## Overview
 
@@ -42,16 +42,7 @@ BrrrGrrr is a frontend-only application built with a component-based architectur
 - The app updates the burger preview and price dynamically using React state.
 - On order placement, a confirmation modal appears with a summary of the order.
 
-## 🖥️ Screenshots
 
-### Burger Builder
-![Burger Builder](https://via.placeholder.com/800x400.png?text=BrrrGrrr+Burger+Builder)
-
-### Ingredient Selector
-![Ingredient Selector](https://via.placeholder.com/800x400.png?text=BrrrGrrr+Ingredient+Selector)
-
-### Order Confirmation
-![Order Confirmation](https://via.placeholder.com/800x400.png?text=BrrrGrrr+Order+Confirmation)
 
 ## ⚙️ Installation & Setup
 
@@ -89,15 +80,5 @@ BrrrGrrr is a frontend-only application built with a component-based architectur
 - **User Accounts**: Allow users to save their favorite burger builds.
 - **Payment Simulation**: Simulate a payment gateway for a more realistic experience.
 
-## 🤝 Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code follows the project’s style guidelines.
 
-## 📧 Contact
-For any inquiries, reach out to me at [chayankhetan36@gmail.com](mailto:chayankhetan36@gmail.com).
 
-## 📜 License
-This project is licensed under the MIT License.
-
----
-
-**Made with ❤️ by Chayan Khetan**
